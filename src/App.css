@@ -1,2 +1,22 @@
-sup { font-weight: bold }
-.joplin { font-family: monospace }
+.display {
+    padding: 16px 16px 16px 16px;
+}
+
+.input {
+    border-bottom: 1px solid #000000;
+    padding: 16px 16px 16px 16px;
+}
+
+.joplin {
+    font-family: monospace;
+    padding: 16px 16px 16px 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+sup {
+    font-weight: bold;
+}
